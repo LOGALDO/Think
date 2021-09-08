@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import produce from "immer";
 
 const state = () => {
@@ -65,10 +65,4 @@ export function learn(situation, thought) {
   return (perception) => {
     thought(reality(), perception, decide);
   };
-}
-
-export function UI({ start, init }) {
-  useEffect(start);
-  const Init = init;
-  return <Init />;
 }
