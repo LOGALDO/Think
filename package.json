@@ -1,0 +1,23 @@
+{
+  "name": "federicologaldo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feder-uy/Think.git"
+  },
+  "author": "Federico Logaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feder-uy/Think/issues"
+  },
+  "homepage": "https://github.com/feder-uy/Think#readme",
+  "dependencies": {
+    "immer": "^9.0.6",
+    "react": "^17.0.2"
+  }
+}
